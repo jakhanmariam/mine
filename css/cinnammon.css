@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root{
+    --primary-color:burlywood;
+    --primary--bg--color:rgba(73, 33, 3, 0.617);
+    --font-family:"Montserrat", sans-serif;
+    --primary--text--color:rgb(39, 38, 38);
+    --base-width: 35px;
+}
+
+body{
+    background-color: var(--primary--bg--color);
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+article{
+    background-color:var(--primary-color);
+    padding: 100px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+article h3, small, h4, li, td, th{
+    font-family: var(--font-family);
+}
+
+article small{
+    color: var(--primary--text--color);
+}
+
+
+.like{
+    width: var(--base-width);
+    position: absolute;
+    right: 490px;
+    top: 780px;
+}
+
+
+.dislike{
+    width: var(--base-width);
+    position: absolute;
+    right: 450px;
+    top: 780px;
+}
+
+
+.save{
+    width: var(--base-width);
+    position: absolute;
+    right: 380px;
+    top: 778px;
+}
+
+
+table{
+    border: 1px solid rgba(73, 33, 3, 0.617);
+    border-spacing: 0px;
+}
+
+
+table th,td{
+    border: 1px solid rgba(73, 33, 3, 0.617);
+    padding: 20px;
+    padding: 5px;
+}
+
+
+
+
+

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+:root{
+    --primary-color:rgba(73, 33, 3, 0.617);
+    --secondary-color:bisque;
+    --primary--font-family:"Playwrite GB S", cursive;
+    --secondary--font-family: "Signika Negative", sans-serif;
+    --primary--bg-color:rgba(73, 33, 3, 0.617);
+}
+
+
+body{
+    background-color: var(--primary--bg-color);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo p{
+    font-family: var(--primary--font-family);
+    color: var(--secondary-color);
+}
+
+
+.search{
+    padding: 8px;
+    padding-right: 310px;
+    border-radius: 10px;
+    border: 2px solid var(--secondary-color);
+}
+
+
+.nav-bar{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+
+.recipes, .my-card, .login, .register, .home{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: var(--primary--font-family);
+    transition-duration: .3s;
+}
+
+
+.shop{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--primary--font-family);
+}
+
+
+.home:hover{
+    color: var(--secondary-color);
+
+}
+
+
+.logo-cookie{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    left: 222px;
+    top: 29px;
+}
+
+
+.search-logo{
+    width: 25px;
+    position: absolute;
+    left: 842px;
+    top: 25px;
+}
+
+
+.shopping-logo{
+    width: 30px;
+    position: absolute;
+    left: 1045px;
+    top: 23px;
+}
+
+
+.shop:hover{
+    color: var(--secondary-color);
+}
+
+
+.recipes:hover{
+    color: var(--secondary-color);
+}
+
+
+.my-card{
+    padding: 10px;
+}
+
+
+.my-card:hover{
+    color: var(--secondary-color);
+}
+
+
+.login:hover{
+    color: var(--secondary-color);
+}
+
+
+.register:hover{
+    color: var(--secondary-color);
+}
+
+
+.register{
+    padding: 10px;
+}
+
+
+.login{
+    padding: 10px;
+
+}
+
+
+span{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 25px;
+    margin-left: 50px;
+    margin-top: 100px;
+    row-gap: 80px;
+}
+
+
+.card{
+    background-color: burlywood;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+    position: relative;
+    font-family: var(--secondary--font-family);
+    box-shadow:  5px 5px 20px #000000;  
+}
+
+
+.card img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.card-input{
+    width: 50%;
+    margin-left: 33px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: beige;
+    padding: 10px;
+}
+
+
+.heart{
+    width: 20px;
+    position: absolute;
+    left: 100px;
+}
+
